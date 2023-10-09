@@ -64,7 +64,7 @@
   }
 }
 
-@media screen and (max-width: 1768px) {
+@media screen and (max-width: 768px) {
   .category {
     width: 45%;
   }
