@@ -5,10 +5,23 @@ import styles from "./writePage.module.css";
 import React, { useState } from "react";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.bubble.css";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
 
 const WritePage = () => {
+  const { status } = useSession();
+  const router = useRouter();
+
   const [open, setOpen] = useState(false);
   const [value, setValue] = useState("");
+
+  if (status === "loading") {
+    return <div className={styles.loading}>Loading...</div>;
+  }
+
+  if (status === "unauthenticated") {
+    router.push("/");
+  }
 
   return (
     <div className={styles.container}>
@@ -38,9 +51,7 @@ const WritePage = () => {
           placeholder="Tell your story..."
         />
       </div>
-      <button className={styles.publish}>
-        Publish
-      </button>
+      <button className={styles.publish}>Publish</button>
     </div>
   );
 };
