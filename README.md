@@ -77,9 +77,9 @@
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@otisllm](https://twitter.com/otisllm) - otis@otisai.dev
+Otis - [@otisllm](https://twitter.com/otisllm) - otis@otisai.dev
 
-Project Link: [https://github.com/OtisAlejandro/BlogApp](https://github.com/OtisAlejandro/BlogApp)
+[https://github.com/OtisAlejandro/BlogApp](https://github.com/OtisAlejandro/BlogApp)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
