@@ -23,8 +23,6 @@
     <a href="https://github.com/OtisAlejandro/BlogApp"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/OtisAlejandro/BlogApp">View Demo</a>
-    ·
     <a href="https://github.com/OtisAlejandro/BlogApp/issues">Report Bug</a>
     ·
     <a href="hhttps://github.com/OtisAlejandro/BlogApp/issues">Request Feature</a>
@@ -62,9 +60,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `OtisAlejandro`, `BlogApp`, `otisllm`, `linkedin_username`, `email_client`, `email`, `BlogApp`, `project_description`
+![Product Name Screen Shot][public/HomePicture.png]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
