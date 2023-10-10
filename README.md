@@ -60,7 +60,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-!(Product Name Screen Shot)[public/HomePicture.png]
+![Product Name Screen Shot](public/HomePicture.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
